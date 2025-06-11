@@ -1,0 +1,95 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: rgb(169, 122, 122);
+    border-bottom: 1px solid #ccc;
+}
+
+.logo
+{
+    height: 100px;
+}
+
+.title
+{
+    text-align: center;
+}
+
+.title h1
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:10 px;
+}
+
+.title h2
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10 px;
+}
+
+.contact {
+    text-align: right;
+    font-size: 14px;
+}
+
+nav
+{
+    background-color:  #003366;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 20px;
+    padding: 8px 12px;
+    
+}
+nav a:hover {
+    background-color: #0055aa;
+    border-radius: 5px;
+}
+
+.about h3
+{
+    background-color: #9eafc1;
+    text-align: center;
+    
+    padding: 8px 12px;
+    
+}
+
+.about p
+{
+    text-align:left;
+}
+
+.employee h2
+{
+    background-color: #9eafc1;
+    text-align: center;
+    padding: 8px 12px;
+    
+}
+
+.employee table
+{
+    align-items: center;
+}
+
+.layout h2
+{
+    background-color: #9eafc1;
+    text-align: center;
+    padding: 8px 12px;
+}
+
+.layout img
+{
+    width: 60%;
+    height: auto;
+}
